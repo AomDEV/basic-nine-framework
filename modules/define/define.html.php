@@ -1,0 +1,13 @@
+<?php
+define("_TABLE_START","<table");
+define("_TABLE_END","</table>");
+define("_TR_START","<tr");
+define("_TR_END","</tr>");
+define("_TH_START","<th");
+define("_TH_END","</th>");
+define("_TD_START","<td");
+define("_TD_END","</td>");
+define("_IFRAME_START","<iframe");
+define("_IFRAME_END","</iframe>");
+define("_TAG_CLOSE",">");
+?>
