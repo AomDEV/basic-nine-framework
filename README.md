@@ -50,14 +50,13 @@ Import files<br />
  1. Function name `iframe`
  2. `$iframe = n_render::iframe([url]);`
  3. Return as html tag "<iframe src='[url]'></iframe>"
-etc.
+<br />etc.
 
 # Example #
-Easy to use database connection syntax example like this.
-`require("class.nine.php");
-$db = new n_database("username","password","host","database_name");
-$init = $db->select('member')->find('user_id','=','1')->only(array('username','password'))->init();
-//Return as array
-$cmd = $db->select('member')->find('user_id','=','1')->only(array('username','password'))->get();
-//Return SELECT username,password FROM member WHERE user_id=1; 
-`
+Easy to use database connection syntax example like this.<br />
+`require("class.nine.php");`
+`$db = new n_database("username","password","host","database_name");`
+`$init = $db->select('member')->find('user_id','=','1')->only(array('username','password'))->init();`
+`//Return as array`
+`$cmd = $db->select('member')->find('user_id','=','1')->only(array('username','password'))->get();`
+`//Return SELECT username,password FROM member WHERE user_id=1;`
