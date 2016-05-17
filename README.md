@@ -54,9 +54,9 @@ Import files<br />
 
 # Example #
 Easy to use database connection syntax example like this.<br />
-`require("class.nine.php");`
-`$db = new n_database("username","password","host","database_name");`
-`$init = $db->select('member')->find('user_id','=','1')->only(array('username','password'))->init();`
-`//Return as array`
-`$cmd = $db->select('member')->find('user_id','=','1')->only(array('username','password'))->get();`
-`//Return SELECT username,password FROM member WHERE user_id=1;`
+`require("class.nine.php");`<br />
+`$db = new n_database("username","password","host","database_name");`<br />
+`$init = $db->select('member')->find('user_id','=','1')->only(array('username','password'))->init();`<br />
+`//Return as array` <br />
+`$cmd = $db->select('member')->find('user_id','=','1')->only(array('username','password'))->get();` <br />
+`//Return SELECT username,password FROM member WHERE user_id=1;` <br />
